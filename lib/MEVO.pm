@@ -7,6 +7,7 @@ use strict;
 our $VERSION = 0.01;
 
 use Sky::Model;
+use constant DECLINED => 1;
 
 # Flesh out the call model:
 sub handler() {
@@ -23,5 +24,7 @@ sub handler() {
     
     return $result;
 }
+
+sub log($) {}
 
 1;
