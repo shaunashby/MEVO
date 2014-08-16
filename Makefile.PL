@@ -6,7 +6,6 @@ WriteMakefile(
     NAME                => 'MEVO',
     AUTHOR              => 'Shaun Ashby <Shaun.Ashby@unige.ch>',
     VERSION_FROM        => 'lib/MEVO.pm',
-    ABSTRACT_FROM       => 'lib/MEVO.pm',
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')
       : ()),
