@@ -2,8 +2,16 @@ Changes
 MANIFEST
 Makefile.PL
 README
+lib/FITS/File.pm
 lib/MEVO.pm
 lib/MEVO/Model.pm
+lib/MEVO/Service/Protocol.pm
+lib/MooseX/Role/Cmd/Meta/Attribute/Trait/PIL.pm
+lib/MooseX/Types/Astro/Coords.pm
+lib/VO/Model.pm
+lib/VO/Service.pm
+lib/VO/Service/WCS.pm
 t/00-load.t
+t/boilerplate.t
 t/pod-coverage.t
 t/pod.t
