@@ -3,6 +3,7 @@ MANIFEST
 Makefile.PL
 README
 lib/FITS/File.pm
+lib/Sky/Model.pm
 lib/MEVO.pm
 lib/MEVO/Model.pm
 lib/MEVO/Service/Protocol.pm
