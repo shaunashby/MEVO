@@ -18,8 +18,8 @@ sub handler() {
 							    FORMAT  =>  $request->param('FORMAT') });
     # Return DECLINED or maybe a VO::Table::Error object:
     if ($result->error) {
-	log("there was an error: ",$result->error);
-	return Apache::DECLINED;
+	::log("there was an error: ",$result->error);
+	return DECLINED;
     }
     
     return $result;
