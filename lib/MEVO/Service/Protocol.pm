@@ -17,8 +17,8 @@ use namespace::clean -except => 'meta';
 has 'type' => (
     is => 'rw',
     isa => 'Str',
-    default => sub { "SIAP::Extended" };
-    lazy => 1
+    default => sub { "SIAP::Extended" },
+    lazy => 1,
     );
 
 no Moose;
